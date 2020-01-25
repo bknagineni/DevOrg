@@ -3,6 +3,7 @@ public class AccountHandler
 {
    public static string insertNewAccount(string accname)
    {
+   		//sample message from eclipse for versioning
        try
        {
        Account acc = new Account(name=accname);
@@ -12,4 +13,5 @@ public class AccountHandler
        }
        catch(DMLException e){return e.getMessage();}
    }
+   	//debug statements.ddd
 }
